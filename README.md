@@ -5,6 +5,10 @@ Simple spinner package for Meteor
 
 `meteor add jss:spinner`
 
+# Demo
+
+[jss-spinner.meteor.com](http://jss-spinner.meteor.com/)
+
 # Usage
 
 Simply add the spinner to your app as you would with any other template:
