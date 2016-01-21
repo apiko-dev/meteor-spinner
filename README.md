@@ -1,5 +1,7 @@
-# meteor-loader
-Simple spinner package for Meteor
+# meteor-spinner
+Simple spinner package for Meteor.
+
+[![Meteor Icon](http://icon.meteor.com/package/jss:spinner)](https://atmospherejs.com/jss/spinner)
 
 # Install
 
@@ -11,7 +13,7 @@ Simple spinner package for Meteor
 
 # Usage
 
-Simply add the spinner to your app as you would with any other template:
+Simply add the spinner to your application:
 
 ```handlebars
 {{> Spinner}}
