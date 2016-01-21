@@ -1,13 +1,14 @@
 Package.describe({
   name: 'jss:spinner',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'Simple spinner package',
   git: 'https://github.com/JSSolutions/meteor-spinner',
   documentation: 'README.md'
 });
 
+
 Package.onUse(function(api) {
-  api.versionsFrom('1.1.0.2');
+  api.versionsFrom('1.2.1');
   api.use('templating', 'client');
   api.addFiles('lib/spinner.gif', 'client', {
     isAsset: true
@@ -16,5 +17,4 @@ Package.onUse(function(api) {
     'lib/spinner.css',
     'lib/spinner.html'
   ], 'client');
-
 });
